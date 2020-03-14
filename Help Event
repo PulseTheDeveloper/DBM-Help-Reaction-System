@@ -1,0 +1,74 @@
+{
+  "name": "Help",
+  "temp": "reaction",
+  "event-type": "28",
+  "_id": "Dnxvx",
+  "actions": [
+    {
+      "reaction": "1",
+      "varName": "reaction",
+      "info": "3",
+      "storage": "1",
+      "varName2": "reaction-name",
+      "name": "Store Reaction Info"
+    },
+    {
+      "reaction": "1",
+      "varName": "reaction",
+      "info": "7",
+      "storage": "1",
+      "varName2": "member",
+      "name": "Store Reaction Info"
+    },
+    {
+      "storage": "1",
+      "varName": "reaction-name",
+      "comparison": "1",
+      "value": "'🙏'",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "1",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "title": "__**Pulse Verification**__",
+      "author": "",
+      "color": "f652ce",
+      "url": "",
+      "authorIcon": "",
+      "authorUrl": "",
+      "imageUrl": "",
+      "thumbUrl": "",
+      "timestamp": "false",
+      "debug": "false",
+      "text": "",
+      "year": "",
+      "month": "",
+      "day": "",
+      "hour": "",
+      "minute": "",
+      "second": "",
+      "storage": "1",
+      "varName": "dm.message",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "dm.message",
+      "message": "Help Commands",
+      "name": "Set Embed Description"
+    },
+    {
+      "storage": "1",
+      "varName": "dm.message",
+      "channel": "5",
+      "varName2": "member",
+      "storage3": "1",
+      "varName3": "store.message",
+      "iffalse": "0",
+      "iffalseVal": "",
+      "name": "Send Embed Message"
+    }
+  ]
+}
